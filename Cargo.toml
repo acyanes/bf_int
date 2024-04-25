@@ -1,0 +1,12 @@
+[package]
+name = "bf_transpiler"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "bf_transpiler"
+crate-type = ["cdylib"]
+
+[dependencies.pyo3]
+version = "0.21.1"
+features = ["abi3-py38"]
